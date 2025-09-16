@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Devils' Corner</title>
+    <link type="text/css" rel="stylesheet" href="./style.css" /> 
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <!-- Header-->
+    <div class="heading-container">
+        <h2 class="heading">Retro <span>Manchester </span>United Corner</h2>
+        <h5 class="subhead">Where we relive all the glory!</h5>
+    </div>
+    <!-- Image Slider -->
+    <div class="slider-container">
+        <div class="slider" id="imageSlider">
+            <img src="./images/saf.png" alt="Sir Alex Fergusson on the touchline" class="slide">
+            <img src="./images/degea.jpg" alt=" David de Gea celebrating" class="slide">
+            <img src="./images/giggsy.jpg" alt="Ryan Giggs famous FA cup vs Arsenal" class="slide">
+            <img src="./images/cup-winners.jpg" alt="Scholes, Giggs and Cole posing with the FA cup" class="slide">
+        </div>
+        <button class="slider-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    
+  
+
+    <!-- Footer section-->
+    <div class="footer">
+        <p>&copy; Red Devils' Corner <span id="year"></span></p>
+    </div>
+      <!-- External Javascript file -->
+      <script src="./script.js"></script>
+</body>
+</html>
